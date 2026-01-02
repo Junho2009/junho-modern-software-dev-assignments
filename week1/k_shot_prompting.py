@@ -7,7 +7,37 @@ load_dotenv()
 NUM_RUNS_TIMES = 5
 
 # TODO: Fill this in!
-YOUR_SYSTEM_PROMPT = ""
+YOUR_SYSTEM_PROMPT = r"""
+Reverse the order of letters in the word.
+
+Example:
+Input: hello
+Output: olleh
+
+Example:
+Input: todayisgood
+Output: doogsisiyadot
+
+Example:
+Input: goodatcoding
+Output: gnidoctadoog
+
+Example:
+Input: todayisgood
+Output: doogsiyadot
+
+Example:
+Input: helloworld
+Output: dlrowolleh
+
+Example:
+Input: httpstatus
+Output: sutatsptth
+
+Now apply the same pattern.
+"""
+
+
 
 USER_PROMPT = """
 Reverse the order of letters in the following word. Only output the reversed word, no other text:
